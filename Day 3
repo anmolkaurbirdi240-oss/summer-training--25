@@ -1,0 +1,28 @@
+[07/07, 2:42 pm] Anmolkaurbirdi36: # Linux Commands & Shell Scripting Notes
+
+## 1. File Compression
+
+### `gzip` – Compress a file
+Reduces file size, adds `.gz` extension.
+
+```bash
+gzip [options] filename
+[07/07, 2:43 pm] Anmolkaurbirdi36: gunzip [options] filename.gz
+[07/07, 2:43 pm] Anmolkaurbirdi36: grep "word" filename
+[07/07, 2:43 pm] Anmolkaurbirdi36: awk '{print $1}' filename   # prints first column
+[07/07, 2:43 pm] Anmolkaurbirdi36: sed 's/old/new/' filename
+[07/07, 2:43 pm] Anmolkaurbirdi36: echo "hello" > day.txt
+[07/07, 2:43 pm] Anmolkaurbirdi36: echo "welcome to day 3" >> day3.txt   # appends to file
+[07/07, 2:44 pm] Anmolkaurbirdi36: #!/bin/bash
+# Program: Variables Demo
+
+name="Debruv"
+ID=9514935
+city="New York"
+
+echo "Name: $name"
+echo "ID: $ID"
+echo "City: $city"
+echo "Hello, my name is $name"
+echo "My ID: $ID"
+echo "I live in $city"
