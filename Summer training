@@ -1,5 +1,7 @@
-INTRODUCTION TO LINUX
+# INTRODUCTION TO LINUX
+
 Q1. What is an Operating System?
+
 An OS is system software that acts as a bridge between hardware and applications — it manages CPU, memory, storage, I/O devices, files, and processes while providing an execution environment for programs.
 Key Functions:
 Process management
@@ -10,19 +12,23 @@ Security and user management
 Resource allocation
 Examples: Linux, Windows, macOS, Android
 Mnemonic: "PM-FIRD" — Process, Memory, File system, I/O, Resource allocation, Device/user security
+
 Q2. Difference between Linux, UNIX and macOS
+
 LINUX
 Free, open-source, Unix-like OS built on the Linux kernel.
 Open-source and free
 Multiuser + multitasking
 Secure and stable
 Portable and highly customizable
+
 UNIX
 Original multiuser, multitasking OS — proprietary, foundation for Linux/macOS. Used in enterprise/mission-critical systems.
 Multiuser + multitasking
 High stability and reliability
 Strong security
 Portable across specific supported hardware only (Linux is more portable than UNIX)
+
 macOS
 Proprietary, Unix-based OS by Apple.
 Unix-based
@@ -31,7 +37,9 @@ Uses the XNU hybrid kernel
 Secure and stable
 Optimized for Apple hardware only
 (Correction note: Linux is "Unix-like" — not built on original UNIX source code — while macOS is technically "Unix-based," since it's certified compliant with the Single UNIX Specification. Ye difference exams mein pucha ja sakta hai.)
+
 Q3. What is VirtualBox?
+
 A Type-2 (hosted) hypervisor by Oracle that lets multiple guest OSes run on top of a host OS using hardware virtualization.
 Key Features
 Supports multiple guest OSes (Windows, Linux; macOS only on Apple hardware — licensing restriction)
@@ -39,10 +47,14 @@ Uses hardware virtualization (Intel VT-x / AMD-V)
 Provides virtual CPU, RAM, storage, network devices
 Supports snapshots and virtual disk management
 Cross-platform host support (Windows, Linux, macOS)
+
 Q4. What is VMware?
+
 A virtualization software (hypervisor) developed by VMware Inc. that runs multiple OSes on a single physical machine.
-Key Features
-Type-2 hypervisor in desktop editions (e.g., VMware Workstation, Fusion) — VMware also has Type-1 hypervisors (e.g., ESXi) for enterprise use
+
+# Key Features:
+
+* Type-2 hypervisor in desktop editions (e.g., VMware Workstation, Fusion) — VMware also has Type-1 hypervisors (e.g., ESXi) for enterprise use
 Uses hardware virtualization (Intel VT-x / AMD-V)
 Allows creating VMs with separate CPU, RAM, disk, network
 Supports snapshots, cloning, and resource allocation per VM
