@@ -1,19 +1,20 @@
-[07/07, 2:42 pm] Anmolkaurbirdi36: # Linux Commands & Shell Scripting Notes
+ # Linux Commands & Shell Scripting Notes
+DAY 3 WAS ABOUT LINUX COMMANDS AND SHELL SCRIPTING 
+ 1. File Compression
 
-## 1. File Compression
-
-### `gzip` – Compress a file
+ `gzip` – Compress a file
 Reduces file size, adds `.gz` extension.
 
 ```bash
 gzip [options] filename
-[07/07, 2:43 pm] Anmolkaurbirdi36: gunzip [options] filename.gz
-[07/07, 2:43 pm] Anmolkaurbirdi36: grep "word" filename
-[07/07, 2:43 pm] Anmolkaurbirdi36: awk '{print $1}' filename   # prints first column
-[07/07, 2:43 pm] Anmolkaurbirdi36: sed 's/old/new/' filename
-[07/07, 2:43 pm] Anmolkaurbirdi36: echo "hello" > day.txt
-[07/07, 2:43 pm] Anmolkaurbirdi36: echo "welcome to day 3" >> day3.txt   # appends to file
-[07/07, 2:44 pm] Anmolkaurbirdi36: #!/bin/bash
+ gunzip [options] filename.gz
+ grep "word" filename
+awk '{print $1}' filename   # prints first column
+sed 's/old/new/' filename
+echo "hello" > day.txt
+echo "welcome to day 3" >> day3.txt   # appends to file
+!/bin/bash
+
 # Program: Variables Demo
 
 name="Debruv"
