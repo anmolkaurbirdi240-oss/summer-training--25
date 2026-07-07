@@ -1,10 +1,12 @@
- Introduction to Shell and Bash
+#  Introduction to Shell and Bash
+
 What is a Shell?
+
 Shell is the program that works as a bridge between the user and the operating system.
 It accepts commands typed by the user through the keyboard.
 The shell sends these commands to the operating system and shows the output.
 It is used to run programs, manage files/folders, and perform system tasks.
-Types of Shell
+# Types of Shell
 Shell
 Description
 Bash
@@ -21,7 +23,7 @@ It is one of the most popular/commonly used shells in Linux.
 Bash accepts user commands and executes them in the OS.
 It is also used to write shell scripts, which help automate repeated tasks.
 Bash is simple, powerful, and is the default shell in many Linux OS.
- File System Structure
+#  File System Structure
 File System Structure is the way Linux organizes and stores files and folders in a tree-like structure.
 It starts from the root directory (/), and all other directories are inside it.
 Key Directories
@@ -37,7 +39,7 @@ Stores temporary files created by programs. These files are usually deleted auto
 Stores changing data like logs and cache files. Also keeps mail, printer files, and application data.
 /bin
 Contains essential commands and executable programs — e.g., cs, cp, mv, cat
-: Basic File Operations
+# Basic File Operations
 Basic shell commands are simple commands used in Linux to do different tasks. They help us create files, open folders, check the date, and manage the system.
 Command
 Meaning
@@ -61,3 +63,5 @@ cp
 Copy files or directories
 whereis
 Find the location Int
+
+## It was explained in class using a diagram.It's structure was similar to an onion.
