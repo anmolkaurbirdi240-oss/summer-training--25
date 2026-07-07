@@ -1,0 +1,83 @@
+Table of Contents
+Power Failure
+No Display
+Operating System Not Found
+Blue Screen Error (BSOD)
+Continuous Restart Loop
+BIOS/UEFI Not Detecting Hard Disk
+Boot Device Not Found
+1. Power Failure
+Issue: The computer does not turn on when the power button is pressed.
+Causes
+Loose power cable
+Faulty power supply (SMPS)
+Dead battery (laptops)
+Faulty power button
+✅ Solutions
+[ ] Check the power cable
+[ ] Ensure the power supply is working
+[ ] Charge or replace the laptop battery
+[ ] Test the power button
+2. No Display
+Issue: The PC powers on, but the monitor shows a blank screen.
+Causes
+Loose monitor cable
+Faulty RAM
+Graphics card issue
+✅ Solutions
+[ ] Check monitor connection
+[ ] Reseat the RAM
+[ ] Check the graphics card
+[ ] Test with another monitor
+3. Operating System Not Found
+Issue: BIOS/UEFI cannot locate a bootable operating system.
+Causes
+Incorrect boot priority
+Missing operating system
+Damaged hard drive
+✅ Solutions
+[ ] Set the correct boot device in BIOS
+[ ] Repair Windows using installation media
+[ ] Replace the hard disk if damaged
+4. Blue Screen Error (BSOD)
+Issue: Windows crashes with a blue screen during boot.
+Causes
+Driver problems
+Hardware failure
+Corrupted system files
+✅ Solutions
+[ ] Update device drivers
+[ ] Run Startup Repair
+[ ] Scan for corrupted system files
+[ ] Replace faulty hardware if required
+5. Continuous Restart Loop
+Issue: The PC keeps restarting without loading Windows.
+Causes
+Corrupted Windows files
+Faulty RAM
+Hardware failure
+✅ Solutions
+[ ] Boot into Safe Mode
+[ ] Repair Windows
+[ ] Test RAM
+[ ] Reinstall Windows if necessary
+6. BIOS/UEFI Not Detecting Hard Disk
+Issue: Hard drive is not detected during boot.
+Causes
+Loose SATA cable
+Damaged hard disk
+BIOS settings problem
+✅ Solutions
+[ ] Reconnect SATA and power cables
+[ ] Enable the drive in BIOS
+[ ] Replace the hard drive if faulty
+7. Boot Device Not Found
+Issue: The computer cannot find a bootable device.
+Causes
+Incorrect boot priority
+Missing operating system
+Damaged hard drive
+✅ Solutions
+[ ] Set the correct boot priority order
+[ ] Repair or reinstall the operating system
+[ ] Replace the damaged storage device
